@@ -1,113 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TeeShop</title>
-</head>
-<body>
-    <div class = "logo-section">
-        <img src = "./images/logo2.jpg" alt = "logo">
-    </div>
-
-    <div section = "welcome-section">
-        <h1>Welcome to Tee Barber Shop</h1>
-        <p>Experience the barbershop feel Professional Care to Maintain Your Perfect Look</p>
-    </div>
-
-    <div class = "hero-section">
-        <img src = "images/bg2.png">
-    </div>
-
-    <div class = "hairstyle-section">
-        <h1>Available Hair Styles are:</h1>
-        <ul>
-            <li>BEARD TRIM</li>
-            <li>HOT SHAVE</li>
-            <li>HAIR SHAMPOO</li>
-            <li>Faded Side Cut</li>
-            <li>Curly Flat Top</li>
-         </ul>
-    </div>
-
-    <div class = "Pricing-section">
-        <h1>Get the best HairCut at the cheaper rate</h1>
-        <table border="1">
-            <th>
-                <tr>
-                    <td>Type</td>
-                    <td>Price</td>
-                </tr>
-
-                <tr>
-                    <td>Adult Cut</td>
-                    <td>#1500</td>
-                </tr>
-
-                <tr>
-                    <td>Beard Trim</td>
-                    <td>#1500</td>
-                </tr>
-
-                <tr>
-                    <td>Youth HairCut</td>
-                    <td>#1000</td>
-                </tr>
-
-                <tr>
-                    <td>Kid Cut</td>
-                    <td>#500</td>
-                </tr>
-
-                <tr>
-                    <td>Edge Up</td>
-                    <td>#300</td>
-                </tr>
-            </th>
-        </table>
-    </div>
+  </head>
+  <body>
+    <!--GoTo-SECTION-->
+    <a href = "/TeeBarberShop.html">Home</a>
+    <a href = "#hairstyle-section">HairStyle</a>
+    <a href = "#pricing-section">Price</a>
+    <a href = "#media-section">Media</a>
+    <a href = "#about-section">About</a>
+    <a href = "#contact-section">Contact</a>
     <br>
-
-    <div class = "media-section">
-        <audio controls>
-
-        </audio> <br> <br>
-
-        <h1>You can enjoy the video tutorial</h1>
-    <video controls>
-        <source src = "MasterBarber.mp4">
-    </video>
+  <br>
+    <!--just like unclebigbay talked about one can use div instead of section,so i use div-->
+    <!--LOGO SECTION-->
+    <div class="logo-section">
+      <img src="./images/logo2.jpg" alt="logo" />
     </div>
 
-    <div class = "About-section">
-        <h1>About-Us</h1>
-        <h4>Tee BarberShop is a modern and sleek barbing saloon with a welcoming atmosphere. 
-            The saloon is well-lit, with comfortable seating and a clean environment. 
-            The walls are adorned with stylish designs and the latest hair fashion magazines.
-        </h4>
+    <!--WELCOM NOTE SECTION-->
+    <div class="welcome-section">
+      <h1>Welcome to Tee Barber Shop</h1>
+      <p>
+        Experience the barbershop feel Professional Care to Maintain Your
+        Perfect Look
+      </p>
     </div>
 
-    <div class = "contact-section">
-        <h1>You can reach us on:</h1> 
-         <h2>Phone: +234817468867</h2> 
-         <h2>Email: adeyemi444@gmail.com</h2>  
-         <h2>Location: 123 Main Street, Abuja, Nigeria</h2>
+    <!--HERO SECTION-->
+    <div id="hero-section">
+      <img src="images/bg2.png" />
+    </div>
 
-         <a href>https://www.pexels.com/search/barber/</a>
-        
+    <!--HAIR STYLE LIST SECTION-->
+    <div id="hairstyle-section">
+      <h1>Available Hair Styles are:</h1>
+      <ul>
+        <li>BEARD TRIM</li>
+        <li>HOT SHAVE</li>
+        <li>HAIR SHAMPOO</li>
+        <li>Faded Side Cut</li>
+        <li>Curly Flat Top</li>
+      </ul>
+    </div>
+
+    <!--PRICE SECTION-->
+    <div id="pricing-section">
+      <h1>Get the best HairCut at a cheaper rate</h1>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Price</th>
+          </tr>
+
+          <tr>
+            <td>Adult Cut</td>
+            <td>#1500</td>
+          </tr>
+
+          <tr>
+            <td>Beard Trim</td>
+            <td>#1500</td>
+          </tr>
+
+          <tr>
+            <td>Youtd HairCut</td>
+            <td>#1000</td>
+          </tr>
+
+          <tr>
+            <td>Kid Cut</td>
+            <td>#500</td>
+          </tr>
+
+          <tr>
+            <td>Edge Up</td>
+            <td>#300</td>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <br />
+
+    <!--MEDIA SECTION(Involving video and audio)-->
+    <div id="media-section">
+      <audio controls>
+        <source src="audio.ogg" />
+      </audio>
+      <br />
+      <br />
+
+      <h1>You can enjoy the video tutorial</h1>
+      <video controls>
+        <source src="MasterBarber.mp4" />
+      </video>
+    </div>
+
+    <!--ABOUT SECTION-->
+    <div id="about-section">
+      <h1>About-Us</h1>
+      <h4>
+        Tee BarberShop is a modern and sleek barbing saloon with a welcoming
+        atmosphere. The saloon is well-lit, with comfortable seating and a clean
+        environment. The walls are adorned with stylish designs and the latest
+        hair fashion magazines.
+      </h4>
+    </div>
+
+    <!--CONTACT SECTION-->
+    <div id = "contact-section">
+      <h1>You can reach us on:</h1>
+      <h2>Phone: +234817468867</h2>
+      <h2>Email: adeyemi444@gmail.com</h2>
+      <h2>Location: 123 Main Street, Abuja, Nigeria</h2>
+
+      <!--ANCHOR SECTION-->
+      <a href="https://www.pexels.com/search/barber" target="_blank"
+        >Click Me</a
+      >
     </div>
 
     <form>
-        <h1>Your Feedback Means Alot to us</h1>
-        <label>Name</label>
-        <input type="text">
+      <h1>Your Feedback Means Alot to us</h1>
+      <label>Name</label>
+      <input type="text" />
 
-        <label>Surname</label>
-        <input type="text">
-        <br>
-        <br>
+      <label>Surname</label>
+      <input type="text" />
+      <br />
+      <br />
 
-        <textarea>Give your view about us</textarea>
+      <textarea>Give your view about us</textarea>
+      <br />
+      <button>
+        <input type="submit" />
+      </button>
     </form>
-</body>
+  </body>
 </html>
