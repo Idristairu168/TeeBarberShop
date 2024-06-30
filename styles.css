@@ -1,0 +1,201 @@
+/*reseting browser styling*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*to avoid overflow and horizontal scroll we make img,audio, and video tags to 100% of the screen*/
+img, audio, video{
+    max-width: 100%;
+}
+
+/*styling navigation section*/
+#nav-area{
+    background-color: #d36e10;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+#nav-area a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav-area a:hover{
+    text-decoration: underline;
+}
+
+#hero-section{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 12px;
+}
+
+#hero-section h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+#sub-hero-section{
+    margin-top: 30px;
+    background-color: #d36e10;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#sub-hero-section img{
+    border-radius: 8px;
+}
+
+#hairstyle-section{
+    margin: 60px auto opx auto;
+    padding: opx 20px;
+}
+
+#hairstyle-section h1{
+    text-align: center;
+    color: #d36e10;
+    margin-bottom: 20px;
+}
+
+#hairstyle-section ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#pricing-section{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    grid-area: 20px;
+    padding: opx 20px;
+}
+
+#pricing-section h1{
+    text-align: center;
+    color: #d36e10;
+}
+
+#pricing-section table{
+    border-collapse: collapse;
+}
+
+#pricing-section th, td{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+    width: 50px;
+}
+
+#pricing-section tr:nth-child(even){
+    background-color: #ddd;
+}
+
+#media-section{
+    background-color: black;
+    margin-top: 30px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#media-section h1{
+    text-align: center;
+    color: white
+}
+
+#media-section h2{
+    color: white;
+    text-align: center;
+}
+
+#about-section{
+    margin-top: 30px;
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#about-section h1{
+    color: #d36e10;
+}
+
+#about-section p{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-section{
+    background-color: #d36e10;
+    margin-top: 60px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-section h1{
+    color: white;
+    text-size-adjust: 40px;
+}
+
+#contact-section h2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-section form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-section form label{
+    font-size: 18px;
+}
+
+#contact-section form input,
+#contact-section form text-area{
+    padding: 10px 12px;
+    border: #d36e10;
+    border-radius: 5px;
+}
+
+#contact-section form button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#anchor-section img {
+    width: 20px;
+    height: 20px;
+}
+
+#anchor-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

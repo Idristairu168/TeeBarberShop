@@ -4,25 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TeeShop</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <!--GoTo-SECTION-->
-    <a href = "/TeeBarberShop.html">Home</a>
-    <a href = "#hairstyle-section">HairStyle</a>
-    <a href = "#pricing-section">Price</a>
-    <a href = "#media-section">Media</a>
-    <a href = "#about-section">About</a>
-    <a href = "#contact-section">Contact</a>
-    <br>
-  <br>
     <!--just like unclebigbay talked about one can use div instead of section,so i use div-->
-    <!--LOGO SECTION-->
-    <div class="logo-section">
-      <img src="./images/logo2.jpg" alt="logo" />
-    </div>
-
-    <!--WELCOM NOTE SECTION-->
-    <div class="welcome-section">
+    <!--GoTo-SECTION-->
+    <nav id="nav-area">
+      <a href="/TeeBarberShop.html">Home</a>
+      <a href="#hairstyle-section">HairStyle</a>
+      <a href="#pricing-section">Price</a>
+      <a href="#media-section">Media</a>
+      <a href="#about-section">About</a>
+      <a href="#contact-section">Contact</a> 
+    </nav>
+    
+    <!--HERO SECTION-->
+    <div id="hero-section">
+      <img src="./images/Uncleb1.jpg" alt="logo" />
+    
       <h1>Welcome to Tee Barber Shop</h1>
       <p>
         Experience the barbershop feel Professional Care to Maintain Your
@@ -30,20 +29,21 @@
       </p>
     </div>
 
-    <!--HERO SECTION-->
-    <div id="hero-section">
-      <img src="images/bg2.png" />
+    <!--SUB-HERO SECTION-->
+    <div id="sub-hero-section">
+      <img src="images/Uncleb2.jpg" />
     </div>
 
     <!--HAIR STYLE LIST SECTION-->
     <div id="hairstyle-section">
       <h1>Available Hair Styles are:</h1>
       <ul>
-        <li>BEARD TRIM</li>
-        <li>HOT SHAVE</li>
-        <li>HAIR SHAMPOO</li>
+        <li>Beard Trim</li>
+        <li>Hot Shave</li>
+        <li>Hair Shampoo</li>
         <li>Faded Side Cut</li>
         <li>Curly Flat Top</li>
+        <li>SideChop style</li>
       </ul>
     </div>
 
@@ -68,7 +68,7 @@
           </tr>
 
           <tr>
-            <td>Youtd HairCut</td>
+            <td>Ladies HairCut</td>
             <td>#1000</td>
           </tr>
 
@@ -84,17 +84,16 @@
         </thead>
       </table>
     </div>
-    <br />
+    
 
     <!--MEDIA SECTION(Involving video and audio)-->
     <div id="media-section">
+      <h1>You can enjoy audio talking about latest updates</h1>
       <audio controls>
         <source src="audio.ogg" />
       </audio>
-      <br />
-      <br />
 
-      <h1>You can enjoy the video tutorial</h1>
+      <h2>You can enjoy the video tutorial</h1>
       <video controls>
         <source src="MasterBarber.mp4" />
       </video>
@@ -103,42 +102,50 @@
     <!--ABOUT SECTION-->
     <div id="about-section">
       <h1>About-Us</h1>
-      <h4>
+      <p>
         Tee BarberShop is a modern and sleek barbing saloon with a welcoming
         atmosphere. The saloon is well-lit, with comfortable seating and a clean
         environment. The walls are adorned with stylish designs and the latest
         hair fashion magazines.
-      </h4>
-    </div>
+      </p>
 
     <!--CONTACT SECTION-->
-    <div id = "contact-section">
+    <div id="contact-section">
       <h1>You can reach us on:</h1>
       <h2>Phone: +234817468867</h2>
       <h2>Email: adeyemi444@gmail.com</h2>
       <h2>Location: 123 Main Street, Abuja, Nigeria</h2>
-
-      <!--ANCHOR SECTION-->
-      <a href="https://www.pexels.com/search/barber" target="_blank"
-        >Click Me</a
-      >
-    </div>
 
     <form>
       <h1>Your Feedback Means Alot to us</h1>
       <label>Name</label>
       <input type="text" />
 
-      <label>Surname</label>
+      <label>Address</label>
       <input type="text" />
       <br />
       <br />
 
+      <label>Other Details</label>
       <textarea>Give your view about us</textarea>
       <br />
       <button>
         <input type="submit" />
       </button>
-    </form>
+    
+
+    <h1>OR</h1>
+    <!--ANCHOR SECTION-->
+    <div id="anchor-section">
+    <a href="https://www.linkedin.com/in/tairu-idris-54ab92195?utm_source=
+    share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+    >
+    <img src="./images/In.jpeg" alt="">
+  </a>
+
+    <a href="https://www.pexels.com/search/barber" target="_blank"
+    >Gallery</a>
+</div>
+  </form>
   </body>
 </html>
