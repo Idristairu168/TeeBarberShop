@@ -1,6 +1,7 @@
 /*reseting browser styling*/
 *{
     margin: 0;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -27,6 +28,7 @@ img, audio, video{
     text-decoration: underline;
 }
 
+/*hero section*/
 #hero-section{
     margin-top: 30px;
     display: flex;
@@ -41,19 +43,37 @@ img, audio, video{
     text-align: center;
 }
 
+#hero-section p{
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
 #sub-hero-section{
-    margin-top: 30px;
+    margin-top: 60px;
     background-color: #d36e10;
-    padding: 20px 60px;
+    padding: 60px 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+#sub-hero-section h2{
+    text-align: center;
+    font-size: 23.5px;
+
+}
+
+#sub-hero-section h2 span{
+    color: dodgerblue;
 }
 
 #sub-hero-section img{
     border-radius: 8px;
 }
 
+/*hairstyle section*/
 #hairstyle-section{
     margin: 60px auto opx auto;
     padding: opx 20px;
@@ -63,6 +83,7 @@ img, audio, video{
     text-align: center;
     color: #d36e10;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 #hairstyle-section ul{
@@ -71,6 +92,7 @@ img, audio, video{
     gap: 20px;
 }
 
+/*pricing section*/
 #pricing-section{
     margin-top: 30px;
     display: flex;
@@ -99,6 +121,7 @@ img, audio, video{
     background-color: #ddd;
 }
 
+/*media section*/
 #media-section{
     background-color: black;
     margin-top: 30px;
@@ -119,6 +142,7 @@ img, audio, video{
     text-align: center;
 }
 
+/*about section*/
 #about-section{
     margin-top: 30px;
     padding: 0px 20px;
@@ -138,6 +162,7 @@ img, audio, video{
     flex-direction: column;
 }
 
+/*contact section*/
 #contact-section{
     background-color: #d36e10;
     margin-top: 60px;
@@ -188,7 +213,7 @@ img, audio, video{
     cursor: pointer;
 }
 
-
+/*creating an alternative to contact me through social media and access more gallery section*/
 #anchor-section img {
     width: 20px;
     height: 20px;
